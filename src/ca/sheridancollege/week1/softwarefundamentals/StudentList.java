@@ -15,9 +15,9 @@ public class StudentList {
     
     public static void main(String[] args)
     {
-       Student [] studentList = new Student[1];//change size before running
+       Student [] studentList = new Student[7];//change size before running
        Student s1 = new Student();
-       s1.setName("Carlos Castro");
+       s1.setName("Carlo Stefano");
        studentList[0]=s1;
        //fill in 4 student names before running
        for(Student s: studentList)
