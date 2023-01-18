@@ -15,17 +15,17 @@ public class StudentList {
     
     public static void main(String[] args)
     {
-       Student [] studentList = new Student[1];//change size before running
+       Student [] studentList = new Student[5];//change size before running
        Student s1 = new Student();
        Student s2 = new Student();
        Student s3 = new Student();
        Student s4 = new Student();
        Student s5 = new Student();
-       s1.setName("Carlos Castro");
-       s1.setName("Carlos Castro 2");
-       s1.setName("Carlos Castro 3");
-       s1.setName("Carlos Castro 4");       
-       s1.setName("Carlos Castro 5");
+       s1.setName("Carlos Castro 1");
+       s2.setName("Carlos Castro 2");
+       s3.setName("Carlos Castro 3");
+       s4.setName("Carlos Castro 4");       
+       s5.setName("Carlos Castro 5");
                             
        studentList[0]=s1;
        studentList[1]=s2;
